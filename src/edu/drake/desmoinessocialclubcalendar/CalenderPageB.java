@@ -7,23 +7,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class CalanderPage extends Activity {
-
+public class CalenderPageB extends Activity {
+	
 	public void sendMessage(View view) {
-		Intent intent = new Intent(this, CalenderPageB.class);
+		Intent intent = new Intent(this, SettingsPage.class);
 		startActivity(intent);
 	}
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_calander_page);
+		setContentView(R.layout.activity_calender_page_b);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.calander_page, menu);
+		getMenuInflater().inflate(R.menu.calender_page_b, menu);
 		return true;
 	}
 

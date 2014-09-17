@@ -8,5 +8,8 @@
     <string name="title_activity_calander_page">CalanderPage</string>
     <string name="title_activity_search_by_date_page">SearchByDatePage</string>
     <string name="title_activity_search_by_type_page">SearchByTypePage</string>
+    <string name="title_activity_calender_page_b">CalenderPageB</string>
+    <string name="title_activity_event_page">EventPage</string>
+    <string name="title_activity_landing_page_b">LandingPageB</string>
 
 </resources>

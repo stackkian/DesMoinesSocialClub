@@ -38,6 +38,18 @@
             android:name=".SearchByTypePage"
             android:label="@string/title_activity_search_by_type_page" >
         </activity>
+        <activity
+            android:name=".CalenderPageB"
+            android:label="@string/title_activity_calender_page_b" >
+        </activity>
+        <activity
+            android:name=".EventPage"
+            android:label="@string/title_activity_event_page" >
+        </activity>
+        <activity
+            android:name=".LandingPageB"
+            android:label="@string/title_activity_landing_page_b" >
+        </activity>
     </application>
 
 </manifest>

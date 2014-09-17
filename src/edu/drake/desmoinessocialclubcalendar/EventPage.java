@@ -1,29 +1,22 @@
 package edu.drake.desmoinessocialclubcalendar;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class CalanderPage extends Activity {
+public class EventPage extends Activity {
 
-	public void sendMessage(View view) {
-		Intent intent = new Intent(this, CalenderPageB.class);
-		startActivity(intent);
-	}
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_calander_page);
+		setContentView(R.layout.activity_event_page);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.calander_page, menu);
+		getMenuInflater().inflate(R.menu.event_page, menu);
 		return true;
 	}
 
