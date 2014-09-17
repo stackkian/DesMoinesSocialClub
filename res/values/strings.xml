@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DesMoinesSocialClubCalendar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings_page">SettingsPage</string>
+    <string name="title_activity_calander_page">CalanderPage</string>
+    <string name="title_activity_search_by_date_page">SearchByDatePage</string>
+    <string name="title_activity_search_by_type_page">SearchByTypePage</string>
+
+</resources>
