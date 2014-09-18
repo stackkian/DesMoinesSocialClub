@@ -9,10 +9,10 @@ import android.view.View;
 
 public class SettingsPage extends Activity {
 
-	public void sendMessage(View view) {
-		Intent intent = new Intent(this, LandingPage.class);
-		startActivity(intent);
-	}
+	//public void sendMessage(View view) {
+		//Intent intent = new Intent(this, LandingPage.class);
+		//startActivity(intent);
+	//}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
