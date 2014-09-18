@@ -10,6 +10,7 @@
         android:layout_centerHorizontal="true"
         android:scaleType="fitXY"
         android:src="@drawable/search_by_d"
-        android:onClick="sendMessage" />
+        android:onClick="sendMessage" 
+        android:background="@android:color/transparent"/>
 
 </RelativeLayout>

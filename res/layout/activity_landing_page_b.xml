@@ -8,6 +8,7 @@
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:onClick="sendMessage"
-        android:src="@drawable/landing_b" />
+        android:src="@drawable/landing_b" 
+        android:background="@android:color/transparent"/>
 
 </RelativeLayout>

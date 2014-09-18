@@ -10,7 +10,8 @@
         android:layout_centerHorizontal="true"
         android:scaleType="fitXY"
         android:src="@drawable/event"
-        android:onClick="sendMessage" />
+        android:onClick="sendMessage"
+        android:background="@android:color/transparent" />
     
    
 

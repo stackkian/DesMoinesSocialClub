@@ -6,10 +6,9 @@
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:scaleType="fitXY"
         android:src="@drawable/search_by_ev"
-        android:onClick="sendMessage" />
+        android:onClick="sendMessage" 
+        android:background="@android:color/transparent"/>
 
 </RelativeLayout>

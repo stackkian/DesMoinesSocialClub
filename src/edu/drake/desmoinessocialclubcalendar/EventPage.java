@@ -10,7 +10,7 @@ import android.view.View;
 public class EventPage extends Activity {
 
 	public void sendMessage(View view) {
-		Intent intent = new Intent(this, SettingsPage.class);
+		Intent intent = new Intent(this, CalanderPage.class);
 		startActivity(intent);
 	}
 	@Override
